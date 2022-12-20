@@ -1,20 +1,20 @@
-# [The Blue Book](https://lyz-code.github.io/blue-book)
+# [The Red Book](https://lyz-code.github.io/blue-book)
 
 This is my personal wiki where I share everything
 I know about this world in form of an [online
 mkdocs book](https://www.mkdocs.org/) hosted on
-[GitHub](https://github.com/lyz-code/blue-book).
+[GitHub](https://github.com/benkyonodo/redbook).
 
 **The wiki is meant to be read [in the web
-format](https://lyz-code.github.io/blue-book).**
+format](https://lyz-code.github.io/redbook).**
 
 ## Contributing
 
 If you find a mistake or want to add new content, please make the changes. You
 can use the edit button on the top right of any article to add them in a pull
 request, if you don't know what that means, you can always open an
-[issue](https://github.com/lyz-code/blue-book/issues/new) or send me an
-[email](https://lyz-code.github.io/blue-book/contact/).
+[issue](https://github.com/benkyonodo/redbook/issues/new)
+
 
 ## Thank you
 

@@ -447,9 +447,9 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/lyz-code
+      link: https://github.com/benkyonodo
     - icon: fontawesome/solid/rss
       link: https://lyz-code.github.io/blue-book/newsletter/0_newsletter_index
 
-repo_name: lyz-code/blue-book
-repo_url: https://github.com/lyz-code/blue-book
+repo_name: benkyonodo/redbook
+repo_url: https://github.com/benkyonodo/redbook
