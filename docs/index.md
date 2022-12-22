@@ -1,33 +1,9 @@
 ---
 title: Introduction
-author: Lyz
+author: Benkyonodo 
 ---
 
 This is my personal [digital garden](digital_garden.md) where I share everything
-I learn about a huge variety of topics, from [antifascism](antifascism.md) and
-other forms of [activism](diversity.md), to
-[life management](life_management.md), [health](sleep.md), [Python](python.md),
-[DevOps](devops.md), [software architecture](adr.md), [writing](writing.md),
-[dancing](rave_dances.md), or [data analysis](recommender_systems.md).
-
-Unlike in common blogging where you write an article and forget about it, posts
-are treated as plants in various stages of growth and nurturing. Some might
-wither and die, and others will flourish and provide a source of continued
-knowledge for the gardener and folks in the community that visit.
-
-To follow the updates of this site, subscribe to any of the
-[RSS feeds](https://lyz-code.github.io/blue-book/newsletter/0_newsletter_index/).
-
-# Visiting the garden
-
-If this is your first visit, welcome!, you may be overwhelmed by the amount of
-content and don't know where to start reading. Start with the first article that
-grabs your attention of the navigation tree on the left and be ready to follow
-the internal links to read the rest.
-
-Or you can use it as a reference, by using the top search field or by cloning
-the [git repository](https://github.com/lyz-code/blue-book) and using grep like
-tools.
 
 # Make your own digital garden
 

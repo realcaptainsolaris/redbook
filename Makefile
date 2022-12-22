@@ -1,19 +1,16 @@
 .DEFAULT_GOAL := docs
 
-.PHONY: install
 install:
-	pdm install
+	@pip install -r requirements.txt -r requirements-dev.txt
 
-.PHONY: update
-update:
-	@echo "-------------------------"
-	@echo "- Updating dependencies -"
-	@echo "-------------------------"
+compile:
+	@rm -f requirements*.txt
+	@pip-compile --resolver=backtracking requirements.in
+	@pip-compile --resolver=backtracking requirements-dev.in
 
-	pdm update --no-sync
-	pdm sync --clean
+sync:
+	@pip-sync requirements*.txt
 
-	@echo "\a"
 
 .PHONY: clean
 clean:
@@ -50,7 +47,7 @@ docs:
 	@echo "- Serving documentation -"
 	@echo "-------------------------"
 
-	pdm run mkdocs serve
+	mkdocs serve
 
 	@echo ""
 
@@ -60,18 +57,7 @@ build-docs:
 	@echo "- Building documentation -"
 	@echo "--------------------------"
 
-	pdm run mkdocs build --strict
+	mkdocs build --strict
 
 	@echo "\a"
 
-# We can't build --strict because the newsletters are not yet added to the git index,
-# and the --strict fails.
-.PHONY: build-newsletters
-build-newsletters:
-	@echo "--------------------------"
-	@echo "- Building newsletters -"
-	@echo "--------------------------"
-
-	pdm run mkdocs build
-
-	@echo ""

@@ -369,6 +369,10 @@ nav:
           - The XY Problem: psychology/the_xy_problem.md
       - Botany:
           - Trees: botany/trees.md
+  - LinuxBook:
+      - Chapter 1 Booting:
+          - dmesg: linuxbook/booting.md
+          - systemd: linuxbook/systemd.md
   - Contact: contact.md
 
 plugins:
@@ -448,8 +452,6 @@ extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/benkyonodo
-    - icon: fontawesome/solid/rss
-      link: https://lyz-code.github.io/blue-book/newsletter/0_newsletter_index
 
 repo_name: benkyonodo/redbook
 repo_url: https://github.com/benkyonodo/redbook
