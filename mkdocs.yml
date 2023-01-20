@@ -5,7 +5,6 @@ site_author: the real captain solaris
 site_url: 
 nav:
   - Introduction: index.md
-  - Projects: projects.md
   - Coding:
       - Learning to code:
           - code_learning.md
