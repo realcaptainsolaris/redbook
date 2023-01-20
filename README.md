@@ -9,6 +9,20 @@ This wiki is inspired and cloned from the [The blue book](https://lyz-code.githu
 **The wiki is meant to be read [in the web
 format](https://lyz-code.github.io/redbook).**
 
+## Installation
+You can build the docs with
+
+    mkdocs build 
+
+HTML Files will be copied to the site/-Directory.
+
+## Publish on github
+You can publish the site on github-pages.
+
+    mkdocs gh-deploy
+
+
+
 ## Thank you
 
 If you liked my book and want to show your support, please see if you know how
