@@ -2,9 +2,10 @@
 title: Pip-tools
 date: 20201016
 author: Lyz
+edited: realcaptainsolaris
 ---
 
-!!! warning "Deprecated: Use [poetry](python_poetry.md) instead."
+!!! note "A modern alternative: [poetry](python_poetry.md)"
 
 [Pip-tools](https://github.com/jazzband/pip-tools) is a set of command line
 tools to help you keep your pip-based packages fresh, even when you've pinned
@@ -78,12 +79,10 @@ With pip-tools, the dependency management is trivial.
 * If you have another `requirements.txt` for the mkdocs documentation, run
     `pip-compile docs/requirements.txt`.
 
-* To [sync the virtualenv libraries with the
-    files](https://m0wer.github.io/memento/computer_science/programming/python/pip/#pip-sync),
-    use `sync`:
+* To install packages
 
     ```python
-    python -m piptools sync requirements.txt requirements-dev.txt
+    pip sync requirements.txt requirements-dev.txt
     ```
 
 * To [uninstall all pip packages](https://stackoverflow.com/questions/11248073/what-is-the-easiest-way-to-remove-all-packages-installed-by-pip) use

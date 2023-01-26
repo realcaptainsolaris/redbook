@@ -31,6 +31,7 @@ nav:
                       - Configure Docker to host the application: >-
                           coding/python/python_project_template/python_docker.md
               - Libraries:
+                  - Pyenv: coding/python/pyenv.md
                   - Alembic: coding/python/alembic.md
                   - asyncio: asyncio.md
                   - BeautifulSoup: beautifulsoup.md
@@ -369,9 +370,18 @@ nav:
       - Botany:
           - Trees: botany/trees.md
   - LinuxBook:
+      - Chapter 0 Devices:
+          - devices: linuxbook/devices.md
+          - modules: linuxbook/modules.md
+          - hardware: linuxbook/hardware.md
       - Chapter 1 Booting:
           - dmesg: linuxbook/booting.md
           - systemd: linuxbook/systemd.md
+      - Chapter 2 Basic Commands:
+          - basic commands: linuxbook/basic_commands.md
+  - Rezepte:
+      - Chinese:
+          - stirfry: recipes/stirfry.md
   - Contact: contact.md
 
 plugins:

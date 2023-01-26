@@ -1,5 +1,10 @@
-# Basic Commands 
+---
+title: Basic Linux Commands 
+date: 20221223
+author: realcaptainsolaris 
+---
 
+# Basic Commands 
 
 ## HISTORY
 

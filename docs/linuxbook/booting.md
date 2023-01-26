@@ -1,3 +1,11 @@
+---
+title: Booten unter Linux 
+date: 20221112
+author: realcaptainsolaris
+---
+
+
+
 # Systeminformationen beim Booten
 
 ## dmesg: Kernelinformationen und Fehler:

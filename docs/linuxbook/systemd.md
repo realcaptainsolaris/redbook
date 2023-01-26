@@ -1,7 +1,7 @@
 ---
 title: systemd 
 date: 20221223
-author: Benkyonodo 
+author: realcaptainsolaris 
 ---
 
 # systemd 
