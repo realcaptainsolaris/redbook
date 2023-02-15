@@ -380,8 +380,15 @@ nav:
       - Chapter 2 Basic Commands:
           - basic commands: linuxbook/basic_commands.md
   - Rezepte:
+      - Thai:
+          - peanut chicken curry: recipes/thai_peanut_chicken.md
       - Chinese:
+          - Five Spice Power: recipes/five_spice_power.md
+          - Sichuan Chili Oil: recipes/chili_oil.md
+          - authentic sichuan recipes: recipes/sichuan_recipes.md
           - stirfry: recipes/stirfry.md
+          - Dan Dan Noodles: recipes/dandan.md
+          - Lo Mein: recipes/lomein.md
   - Contact: contact.md
 
 plugins:

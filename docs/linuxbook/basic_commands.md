@@ -196,6 +196,13 @@ wenn man die Datei verändern will, muss man kleines i nutzen
 
     sed 's/er/ra/g' -i table2.csv
 
+Alle Vorkommen in Dateien ersetzen mit ag (Silver Search)
+  
+    ag SearchString -l0 | xargs -0 sed -i 's/SearchString/Replacement/g'
+
+Alle Vorkommen in Dateien ersetzen mit grep
+
+    grep -rl SearchString . | xargs sed -i 's/SearchString/Replacement/g'
 
 # SPLIT
 eine DAtei in kleinere Dateien zerlegen (20 bytes große dateien)
