@@ -136,6 +136,10 @@ ersetze komma durch semikolon:
     echo "one,two" | tr 'a-z' 'A-Z' | tr ',' ';'
     ONE;TWO
 
+Große Json-Datei in Zeilen splitten und nach Vorkommen suchen:
+
+    tr "," "\n" < staticfiles.json | grep "filetosearchfor"
+
 ## CUT
 wie cat, nur mit ausschneiden.
 -d Delimiter
