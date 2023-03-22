@@ -379,6 +379,8 @@ nav:
           - systemd: linuxbook/systemd.md
       - Chapter 2 Basic Commands:
           - basic commands: linuxbook/basic_commands.md
+          - archive: linuxbook/archives.md
+          - globbing: linuxbook/globbing.md
   - Rezepte:
       - Thai:
           - peanut chicken curry: recipes/thai_peanut_chicken.md

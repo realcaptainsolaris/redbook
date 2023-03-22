@@ -217,3 +217,11 @@ eine DAtei in kleinere Dateien zerlegen (20 bytes große dateien)
 Auf entfernten Server kopieren (mit ssh-key)
 
     scp -i ~/.ssh/id_rsa.pub FILENAME USER@SERVER:/home/USER/FILENAME
+
+## DD
+Bootloader sichern (die ersten 512 Bytes der HD)
+
+    dd if=/dev/sda of=backup_bootloader bs=512 count=1
+
+## XARGS
+
