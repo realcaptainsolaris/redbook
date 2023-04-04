@@ -381,6 +381,8 @@ nav:
           - basic commands: linuxbook/basic_commands.md
           - archive: linuxbook/archives.md
           - globbing: linuxbook/globbing.md
+          - processes: linuxbook/processes.md
+          - screen_tmux: linuxbook/screen_tmux.md
   - Rezepte:
       - Thai:
           - peanut chicken curry: recipes/thai_peanut_chicken.md
