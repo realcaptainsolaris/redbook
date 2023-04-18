@@ -383,6 +383,7 @@ nav:
           - globbing: linuxbook/globbing.md
           - processes: linuxbook/processes.md
           - screen_tmux: linuxbook/screen_tmux.md
+          - regex: linuxbook/regex.md
   - Rezepte:
       - Thai:
           - peanut chicken curry: recipes/thai_peanut_chicken.md

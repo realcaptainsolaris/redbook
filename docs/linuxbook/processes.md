@@ -164,9 +164,32 @@ Alle Prozesse von username MIT SIGKILL beenden
 
     sudo killall --sig SIGKILL -u username
 
+## Watch
+watch - execute a program periodically, showing output fullscreen
 
+    watch -n 1 uptime
 
+## Nice
+Priorität eines Prozess. Je kleiner der Wert, desto mehr Rechenleistung.
+Default Nicewert ist 0. -20 ist der beste Wert, 19 der schlechteste (niedriste Priorität).
 
+    top
 
+4 Spalte von top/htop (NI) ist der Nicewert.
 
+### Nice Wert ändern mit nice
+
+Nutzer kann den Nicewert ändern, allerdings nur von 0 - 20. Negative
+Nicewerte können nur durch Root gesetzt werden.
+
+    nice -n 5 sleep 1000 &
+    [1] 52323
+
+    top -p 52323
+
+### Renice
+Nicewert eines laufenden Prozesses verändern. -n optional
+
+    sudo renice -n 20 -p 52323
+    sudo renice 10 -p 52323
 
