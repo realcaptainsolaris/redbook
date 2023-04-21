@@ -384,6 +384,10 @@ nav:
           - processes: linuxbook/processes.md
           - screen_tmux: linuxbook/screen_tmux.md
           - regex: linuxbook/regex.md
+      - Chapter 4 File systems:
+          - partitions: linuxbook/partitions.md
+      - Chapter 3 Tools:
+          - vifm: linuxbook/vifm.md
   - Rezepte:
       - Thai:
           - peanut chicken curry: recipes/thai_peanut_chicken.md
