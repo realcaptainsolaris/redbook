@@ -22,4 +22,28 @@ List partitions:
 
     fdisk -l 
 
+## mkfs
+Create file system
+
+    sudo mkfs.ext4 -j /dev/sdb1
+
+## mkswap
+Create swap file system
+
+    sudo mkswap /dev/sdb1
+
+add Swap-Partition to filesystem
+
+    sudo swapon /dev/sdb1
+
+## gdisk
+Alternative to fdisk
+
+    sudo gdisk /dev/sdc
+
+## parted
+
+    sudo parteled -l
+
+
 

@@ -386,6 +386,8 @@ nav:
           - regex: linuxbook/regex.md
       - Chapter 4 File systems:
           - partitions: linuxbook/partitions.md
+          - filesystem: linuxbook/filesystem.md
+          - mounten: linuxbook/mounting.md
       - Chapter 3 Tools:
           - vifm: linuxbook/vifm.md
   - Rezepte:
