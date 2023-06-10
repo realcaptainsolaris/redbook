@@ -390,6 +390,7 @@ nav:
           - mounten: linuxbook/mounting.md
       - Chapter 3 Tools:
           - vifm: linuxbook/vifm.md
+          - vim: linuxbook/vim.md
   - Rezepte:
       - Thai:
           - peanut chicken curry: recipes/thai_peanut_chicken.md
