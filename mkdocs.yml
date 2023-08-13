@@ -377,7 +377,6 @@ nav:
       - Chapter 1 Booting:
           - dmesg: linuxbook/booting.md
           - systemd: linuxbook/systemd.md
-
       - Chapter 2 Basic Commands:
           - basic commands: linuxbook/basic_commands.md
           - archive: linuxbook/archives.md
@@ -385,18 +384,15 @@ nav:
           - processes: linuxbook/processes.md
           - screen_tmux: linuxbook/screen_tmux.md
           - regex: linuxbook/regex.md
-
       - Chapter 3 Tools:
           - vifm: linuxbook/vifm.md
           - vim: linuxbook/vim.md
-
       - Chapter 4 File systems:
           - partitions: linuxbook/partitions.md
           - filesystem: linuxbook/filesystem.md
           - mounten: linuxbook/mounting.md
           - permissions: linuxbook/permissions.md
-
-        - Rezepte:
+  - Rezepte:
       - Thai:
           - peanut chicken curry: recipes/thai_peanut_chicken.md
       - Chinese:
