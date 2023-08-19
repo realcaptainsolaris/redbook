@@ -15,25 +15,24 @@ author: realcaptainsolaris
 1. d => if directory
 
 ## Permissions
-Owner
-Group
-all others
+- Owner
+- Group
+- all others
 
 ### User bob
-r => Read SET
-w => Write SET
-x => Execute NOT SET
+- r => Read SET
+- w => Write SET
+- x => Execute NOT SET
 
 user bob can open and write pyproject.toml
 
-id
-
-uid=1000(bob) gid=1000(solaris) Gruppen=1000(solaris),4(adm),24(cdrom),27(sudo)
+    id
+    uid=1000(bob) gid=1000(solaris) Gruppen=1000(solaris),4(adm),24(cdrom),27(sudo)
 
 ### Group solaris 
-r => Read SET
-w => Write SET
-x => Execute
+- r => Read SET
+- w => Write SET
+- x => Execute
 
 User alice, which is member of group solaris, can open and write pyproject.toml
 
@@ -43,25 +42,27 @@ User alice, which is member of group solaris, can open and write pyproject.toml
 
     -rw-rw-r--  1 bob solaris    30 Feb 25 17:42 pyproject.toml
 
-r = 4
-w = 2
-x = 1
+- r = 4
+- w = 2
+- x = 1
 
 Bits jeder Gruppe (User, Gruppe, world)immer zusammenzählen
-1. Gruppe (User): 4 + 2 = 6
-2. Gruppe (Group): 4 + 2 = 6
-3. Gruppe (world): 4 + 0 + 0 = 0
+
+- 1. Gruppe (User): 4 + 2 = 6
+- 2. Gruppe (Group): 4 + 2 = 6
+- 3. Gruppe (world): 4 + 0 + 0 = 0
 
 Neue Gruppe, nur schreibbar für User
-1. Gruppe: 4 + 2 = 6
-2. Gruppe: 4 + 0 = 4
-3. Gruppe: 4 + 0 = 4
 
-chmod 644 pyproject.toml 
+- 1. Gruppe: 4 + 2 = 6
+- 2. Gruppe: 4 + 0 = 4
+- 3. Gruppe: 4 + 0 = 4
+
+    chmod 644 pyproject.toml 
 
 oder in der folgenden Schreibweise:
 
-chmod u=rwx,g=r,o=r pyproject.toml
+    chmod u=rwx,g=r,o=r pyproject.toml
 
 ## Sticky Bit
 
@@ -78,11 +79,9 @@ auf das Verzeichnis haben.
 
     ls -l / | grep tmp
 
-drwxrwxrwt  25 root root      12288 Aug 13 17:05 tmp
+    drwxrwxrwt  25 root root      12288 Aug 13 17:05 tmp
 
 t = Sticky Bit
-
-
 
 ### Sticky Bit setzen
 

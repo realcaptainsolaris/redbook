@@ -333,6 +333,7 @@ nav:
           - nodejs: linux/nodejs.md
           - Oracle Database: oracle_database.md
           - Outrun: outrun.md
+          - Postgres: databases/postgres.md
           - Peek: peek.md
           - Pipx: pipx.md
           - Profanity: profanity.md
@@ -365,10 +366,6 @@ nav:
       - Data Analysis:
           - Recommender Systems: >-
               data_analysis/recommender_systems/recommender_systems.md
-      - Psychology:
-          - The XY Problem: psychology/the_xy_problem.md
-      - Botany:
-          - Trees: botany/trees.md
   - LinuxBook:
       - Chapter 0 Devices:
           - devices: linuxbook/devices.md
