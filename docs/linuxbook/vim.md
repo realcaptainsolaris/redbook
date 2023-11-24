@@ -25,3 +25,10 @@ Emmet Examples:
 
     div>ul>li*5
     div>ul>li 
+
+### Nerdtree
+
+Open files from nerdtree in splitwindow:
+- Open first file with o 
+- Open second file with s (vertical split) 
+- or Open seoncd file with i (horizontal split)
