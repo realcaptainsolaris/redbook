@@ -384,7 +384,9 @@ nav:
       - Chapter 3 Tools:
           - vifm: linuxbook/vifm.md
           - vim: linuxbook/vim.md
+          - nvim: linuxbook/nvim.md
           - tmux: linuxbook/tmux.md
+          - nvimtree: linuxbook/nvimtree.md
       - Chapter 4 File systems:
           - partitions: linuxbook/partitions.md
           - filesystem: linuxbook/filesystem.md
