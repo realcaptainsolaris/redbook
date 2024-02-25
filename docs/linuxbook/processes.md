@@ -54,6 +54,13 @@ Prozesse mit ID 11222 - 12345
 
     top -p 11222,12345
 
+## htop 
+graphische Variante von top.
+
+Htop starten und nach Prozessen filtern (nicht in allen htop-Versionen verfügbar):
+
+    htop --filter ' suchwort '
+
 ## Uptime
 Zeigt an, wie lange das SYstem läuft, wieviele User angemeldet sind
 und mit load average die mittlere Systemauslastung an. 
