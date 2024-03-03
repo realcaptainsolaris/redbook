@@ -393,6 +393,8 @@ nav:
           - mounten: linuxbook/mounting.md
           - permissions: linuxbook/permissions.md
   - Rezepte:
+      - Europe:
+          - Piri Piri Chicken: recipes/piri_piri.md
       - Thai:
           - peanut chicken curry: recipes/thai_peanut_chicken.md
       - Chinese:
