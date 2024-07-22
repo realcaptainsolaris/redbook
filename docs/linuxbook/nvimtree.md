@@ -8,6 +8,9 @@ E: Expand all
 W: Collapse all 
 s: open file with tool 
 
+### Move multiple files
+- select file with `m`: 
+- Move all selected files with `bmv`
 
 ## LSP 
 

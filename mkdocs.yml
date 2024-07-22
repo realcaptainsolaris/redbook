@@ -1,8 +1,8 @@
 ---
 site_name: The Red Lobster Book
 site_description: My tiny dev garden
-site_author: the real captain solaris 
-site_url: 
+site_author: the real captain solaris
+site_url:
 nav:
   - Introduction: index.md
   - Coding:
@@ -404,6 +404,8 @@ nav:
           - stirfry: recipes/stirfry.md
           - Dan Dan Noodles: recipes/dandan.md
           - Lo Mein: recipes/lomein.md
+          - Black Bean Beef: recipes/black_bean_feef.md
+          - Chinese Cucumber Salad: recipes/cucumber.md
   - Contact: contact.md
 
 plugins:
