@@ -26,7 +26,8 @@ nav:
                       - Create the documentation repository: >-
                           coding/python/python_project_template/python_docs.md
                       - Load config from YAML: coding/python/python_config_yaml.md
-                      - Configure SQLAlchemy to use the MariaDB/Mysql backend: >-
+                      - Configure SQLAlchemy to use the MariaDB/Mysql backend:
+                          >-
                           coding/python/python_project_template/python_sqlalchemy_mariadb.md
                       - Configure Docker to host the application: >-
                           coding/python/python_project_template/python_docker.md
@@ -384,7 +385,7 @@ nav:
       - Chapter 3 Tools:
           - vifm: linuxbook/vifm.md
           - vim: linuxbook/vim.md
-          - nvim: linuxbook/nvim.md
+          - lvim: linuxbook/lvim.md
           - tmux: linuxbook/tmux.md
           - nvimtree: linuxbook/nvimtree.md
       - Chapter 4 File systems:
@@ -435,7 +436,7 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: '!!python/name:pymdownx.emoji.to_svg'
+      emoji_generator: "!!python/name:pymdownx.emoji.to_svg"
   - pymdownx.magiclink
   - pymdownx.mark
   - pymdownx.smartsymbols
@@ -460,7 +461,7 @@ theme:
 
   palette:
     # Light mode
-    - media: '(prefers-color-scheme: light)'
+    - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: blue grey
       accent: light blue
@@ -469,7 +470,7 @@ theme:
         name: Switch to dark mode
 
     # Dark mode
-    - media: '(prefers-color-scheme: dark)'
+    - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: blue grey
       accent: light blue
