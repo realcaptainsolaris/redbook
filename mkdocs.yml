@@ -384,6 +384,7 @@ nav:
           - regex: linuxbook/regex.md
       - Chapter 3 Tools:
           - vifm: linuxbook/vifm.md
+          - neomutt: linuxbook/neomutt.md
           - vim: linuxbook/vim.md
           - lvim: linuxbook/lvim.md
           - tmux: linuxbook/tmux.md

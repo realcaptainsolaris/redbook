@@ -1,65 +1,31 @@
 ---
-title: tmux 
+title: tmux
 date: 20231111
-author: realcaptainsolaris 
+author: realcaptainsolaris
 ---
 
-# tmux 
+# tmux
 
-## tmux Kill Server
-Tmux kill server und alle Sessons zerstören (kann resurrectet werden)
+### **tmux Befehle – Übersicht**
 
-    tmux kill-server 
-
-
-## neue Session
-
-    tmux new -s <NAME>
-
-## Session laden:
-
-    tmux attach -t -1
-    tmux attach -t clox
-
-## Session umbenennen:
-    
-    tmux rename-sessiong -t -1 <NEUERNAME>
-
-## Session zerstören 
-  
-    tmux kill-session -t <NAME>
-
-## Session übersicht
-    
-    ctrl + w w => zeigt alle Sessions und Fenster
-    ctrl + w d => detach from session
-
-## Fenster
-
-    ctrl + w c => neues Window
-    ctrl + w , => Fenster umbennen
-    Ctrl + w + x => Fenster schliessen (kill)
-
-### von Fenster zu Fenster gehen:
-    ctrl + w 0 => zu fenster nummer 1 gehen
-
-## RESURRECT
-    
-    ctrl + w ctrl + R => Resurrect
-    ctrl + w ctrl + S => Save
-
-## PANES
-
-    ctrl + w " => vertikaler split
-    ctrl + w % => horizontaler split
-    ctrl + w lhki => panes wechseln
-
-
-### tmux Plugin Manager
-
-    https://github.com/tmux-plugins/tpm
-
-
-## tmux Resurrect
-
-    https://github.com/tmux-plugins/tmux-resurrect
+| **Aktion**                       | **Befehl**                                                       | **Tastenkürzel / Hinweise**                  |
+| -------------------------------- | ---------------------------------------------------------------- | -------------------------------------------- |
+| **Server beenden**               | `tmux kill-server`                                               | Zerstört alle Sessions                       |
+| **Neue Session starten**         | `tmux new -s <NAME>`                                             | Erstelle eine neue Session mit Namen         |
+| **Session laden / verbinden**    | `tmux attach -t <NAME>`                                          | Verbindung zu einer bestehenden Session      |
+|                                  | `tmux attach -t -1`                                              | Letzte Session laden                         |
+| **Session umbenennen**           | `tmux rename-session -t -1 <NEUERNAME>`                          | Session einen neuen Namen geben              |
+| **Session zerstören**            | `tmux kill-session -t <NAME>`                                    | Spezifische Session beenden                  |
+| **Session-Übersicht anzeigen**   | `Ctrl + b` `w`                                                   | Alle Sessions und Fenster anzeigen           |
+| **Von Session trennen**          | `Ctrl + b` `d`                                                   | Detach von der aktuellen Session             |
+| **Neues Fenster erstellen**      | `Ctrl + b` `c`                                                   | Neues Window erstellen                       |
+| **Fenster umbenennen**           | `Ctrl + b` `,`                                                   | Aktuelles Fenster umbenennen                 |
+| **Fenster schließen**            | `Ctrl + b` `x`                                                   | Aktuelles Fenster schließen                  |
+| **Zu einem Fenster springen**    | `Ctrl + b` `0`                                                   | Zu Fenster Nr. 1 wechseln                    |
+| **Verticaler Split erstellen**   | `Ctrl + b` `"`                                                   | Pane vertikal splitten                       |
+| **Horizontaler Split erstellen** | `Ctrl + b` `%`                                                   | Pane horizontal splitten                     |
+| **Zwischen Panes wechseln**      | `Ctrl + b` + `h`, `l`, `k`, `j`                                  | Zwischen Panes (links, rechts, hoch, runter) |
+| **Tmux Resurrect – speichern**   | `Ctrl + b` `Ctrl + s`                                            | Speichert aktuelle Session                   |
+| **Tmux Resurrect – laden**       | `Ctrl + b` `Ctrl + r`                                            | Lädt gespeicherte Session                    |
+| **Tmux Plugin Manager (TPM)**    | [tmux-plugins/tpm](https://github.com/tmux-plugins/tpm)          | Plugin Manager für tmux                      |
+| **Tmux Resurrect Plugin**        | [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect) | Session speichern und wiederherstellen       |
