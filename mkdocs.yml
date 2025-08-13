@@ -330,6 +330,7 @@ nav:
           - mkdocs: linux/mkdocs.md
           - Mopidy: mopidy.md
           - monica: linux/monica.md
+          - network: linux/network.md
           - notmuch: notmuch.md
           - nodejs: linux/nodejs.md
           - Oracle Database: oracle_database.md
