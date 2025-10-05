@@ -26,6 +26,7 @@
 | `<leader><space>` | Find files in root directory           |
 | `<leader>sG`      | Grep in root dir (search for text)     |
 | `<leader>e`       | Show file tree from root directory     |
+| `<leader>ft`      | open Terminal                          |
 | `<leader>a`       | AI functionality                       |
 | `<leader>aa`      | Toggle Copilot Chat sidebar            |
 | `<leader>aq`      | Quick chat                             |

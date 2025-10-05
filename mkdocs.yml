@@ -389,12 +389,18 @@ nav:
           - vim: linuxbook/vim.md
           - lvim: linuxbook/lvim.md
           - tmux: linuxbook/tmux.md
-          - nvimtree: linuxbook/nvimtree.md
+
       - Chapter 4 File systems:
           - partitions: linuxbook/partitions.md
           - filesystem: linuxbook/filesystem.md
           - mounten: linuxbook/mounting.md
           - permissions: linuxbook/permissions.md
+      - Chapter 5 Nework Tools:
+          - nmap: linuxbook/nmap.md
+          - ip: linuxbook/ip.md
+          - ss: linuxbook/ss.md
+          - nmcli: linuxbook/nmcli.md
+          - iw: linuxbook/iw.md
   - Rezepte:
       - Europe:
           - Piri Piri Chicken: recipes/piri_piri.md
